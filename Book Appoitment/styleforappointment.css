@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    background: url("48088151-barber-shop-vintage-pattern-on-the-black-background.webp");
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 100px auto;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 50px;
+}
+
+.container-time {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    outline: 3px dashed #FFD700;
+    outline-offset: -30px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.heading-days {
+    color: #FFD700;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.heading-phone {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.container-form {
+    padding: 20px 0;
+    margin: 0 auto; 
+    color: #000;
+    
+}
+
+form {
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+form p {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+input, select {
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #f3f1f1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-size: 16px;
+    color: #000;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);  
+}
+
+.form-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+/* For screens smaller than 576px */
+@media (max-width: 575px) {
+
+    .container {
+      margin: 50px;
+      grid-template-columns: 1fr;
+    }
+  
+    .container-time {
+      padding: 30px;
+      outline-offset: -20px;
+    }
+  
+    .heading {
+      font-size: 28px;
+    }
+  
+    .heading-days {
+      font-size: 24px;
+    }
+  
+    .heading-phone {
+      font-size: 18px;
+    }
+  
+    .form-field {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    select,
+    input {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .btn {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }
+  
+  /* For screens between 576px and 768px */
+  @media (min-width: 576px) and (max-width: 767px) {
+    /* Your CSS code here */
+  }
+  
+  /* For screens between 768px and 992px */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Your CSS code here */
+  }
+  
+  /* For screens between 992px and 1200px */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* Your CSS code here */
+  }
+  
+  /* For screens larger than 1200px */
+  @media (min-width: 1200px) {
+    /* Your CSS code here */
+  }
+
+  .icon{
+    padding-top: 50px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+   padding-left: 40%;
+   display: block;
+}
+.icon img{
+    width: 40px;
+    height: 40px;
+   
+}
+.icon :hover{
+    cursor: pointer;
+    
+}
+  
